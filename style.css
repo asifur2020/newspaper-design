@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 40px;
+    padding-right: 21px;
+}
+
+img.one {
+    width: 63.11px;
+    height: 65.88px;
+}
+
+.first h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #7FB7F9;
+}
+
+.first span {
+    color: #6F7174;
+}
+
+h6 {
+    padding-top: 41px;
+    color: #0B67CF;
+}
+
+input[type="date"] {
+    color: #7FB7F9;
+    outline: none;
+}
+
+nav.navbar.navbar-expand-lg {
+    background-color: #290F72;
+}
+
+a.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 20px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.nav-link:focus {
+    color: none;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: none !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #f2f2f2;
+    text-transform: capitalize;
+}
+
+ul.dropdown-menu.show {
+    background-color: #484343;
+}
+
+span.material-symbols-outlined {
+    position: absolute;
+    margin-left: 179px;
+    margin-top: 7px;
+    color: #6F7174;
+    cursor: pointer;
+}
+
+input.form-control.me-2 {
+    font-size: 14px;
+    width: 208.9px;
+    height: 37px;
+}
+
+.middel {
+    display: flex;
+    gap: 11px;
+}
+
+.containt {
+    width: 759px;
+    padding-top: 14px;
+    padding-left: 11px;
+}
+
+.latest-containt {
+    border-left: 1px solid rgb(216 205 205 / 95%);
+}
+
+.containt img {
+    width: 653px;
+    margin-left: 12px;
+}
+
+.containt p {
+    font-size: 9px;
+    color: #7FB7F9;
+    margin-left: 36rem;
+    margin-top: 38px;
+}
+
+.containt h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0B67CF;
+    padding: 10px;
+}
+
+.containt h5 {
+    font-size: 13px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #D9D9D9;
+    padding-left: 18px;
+    padding-bottom: 18px;
+}
+
+.containt h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.carousel-control-next-icon {
+    margin-right: 107px;
+}
+
+.carousel-control-prev-icon {
+    margin-left: 107px;
+}
+
+img.d-block {
+    width: 80%;
+    height: 80%;
+    margin-left: 117px;
+}
+
+.latest-containt h1 {
+    margin-top: 10px;
+    font-family: 'Orelega One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin-left: 10px;
+
+    color: #0B67CF;
+}
+
+.container-two {
+    border-top: 1px dashed#0B67CF;
+}
+
+.img-containt img {
+    width: 170px;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.img-containt {
+    display: flex;
+    gap: 54px;
+    border-bottom: 1px dashed #0B67CF;
+
+}
+.Productname {
+    display: flex;
+    gap: 89px;
+}
+.img-containt p {
+    margin-top: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.img-containt p:hover{
+    color: #065fcc;
+}
+
+.second-part h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #0B67CF;
+}
+
+.second-part p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #6F7174;
+}
+
+.last-part h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgba(54, 69, 79, 0.95);
+    padding-top: 30px;
+}
+
+input.attributename {
+    width: 500px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #7FB7F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+input[type="text"] {
+    font-size: 15px !important;
+    padding-left: 37px !important;
+    text-transform: capitalize;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    height: 274px;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+    margin-left: -18px !important;
+}
+button.btn.btn-primary {
+    margin-left: 60.45rem;;
+    width: 113px;
+    text-transform: uppercase;
+}
+.scrollbar{
+    height: 600px;
+    overflow-y: auto;
+    padding-top: 10px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+::-webkit-scrollbar-track {
+   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: blue; 
+    border-radius: 10px;
+}
